@@ -1,0 +1,5 @@
+<div>
+    <app-input-provide-value [value]="value" (valueFinally)="addValuesInputs($event)"></app-input-provide-value>
+    <button (click)="generateValue()" [disabled]="flag">Tirar dado {{num}}</button>
+    <button (click)="desactivatedInput()">Bloquear dado</button>
+</div>
